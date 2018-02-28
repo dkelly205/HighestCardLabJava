@@ -23,4 +23,6 @@ public enum ValueType {
     public int getValue(){
         return this.value;
     }
+
+
 }

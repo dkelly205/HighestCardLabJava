@@ -11,4 +11,10 @@ public class Card {
     public SuitType getSuit(){
         return this.suit;
     }
+
+    public int getValueOfCard(){
+        return this.value.getValue();
+    }
+
+
 }
