@@ -21,10 +21,12 @@ public class DeckTest {
         assertEquals(52, deck.numberOfCards());
     }
 
+
+
     @Test
-    public void testDeskHas51CardsAfterCardIsDealt(){
+    public void testCardIsRemovedFromDeckOnceDealt(){
         deck.populateDeck();
-        deck.deal(card);
+        deck.dealCards();
         assertEquals(51, deck.numberOfCards());
     }
 

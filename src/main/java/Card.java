@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 public class Card {
 
     private SuitType suit;
@@ -15,6 +17,8 @@ public class Card {
     public int getValueOfCard(){
         return this.value.getValue();
     }
+
+
 
 
 }
